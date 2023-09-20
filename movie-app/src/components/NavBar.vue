@@ -27,8 +27,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #535353;
-  margin-bottom: 1rem;
+  z-index: 100;
 }
 nav {
   display: flex;
@@ -36,9 +35,9 @@ nav {
   justify-content: space-around;
   color: rgb(139, 139, 139);
   height: 4rem;
-  background-color: #535353;
   width: 1600px;
   padding: 0 2rem 0 2rem;
+  z-index: 100;
 }
 
 ul.links {
@@ -58,7 +57,7 @@ ul li.link:hover {
 }
 
 input {
-  background-color: #535353;
+  background-color: transparent;
   color: rgb(139, 139, 139);
   border: 1px solid rgb(59, 59, 59);
   padding: 5px;
@@ -67,7 +66,7 @@ input {
 }
 
 .signUp {
-  background-color: #535353;
+  background-color: transparent;
   color: rgb(139, 139, 139);
   border: none;
   padding: 10px;

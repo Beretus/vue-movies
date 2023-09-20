@@ -18,5 +18,9 @@ export default {
 
   getTrendingSeries() {
     return apiClient.get('/trending/tv/day')
+  },
+
+  getPopularMovies() {
+    return apiClient.get('/movie/popular')
   }
 }
