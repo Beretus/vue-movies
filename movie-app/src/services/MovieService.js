@@ -12,7 +12,11 @@ const apiClient = axios.create({
 })
 
 export default {
-  getTrending() {
+  getTrendingMovies() {
     return apiClient.get('/trending/movie/day')
+  },
+
+  getTrendingSeries() {
+    return apiClient.get('/trending/tv/day')
   }
 }
